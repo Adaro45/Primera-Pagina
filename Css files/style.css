@@ -1,0 +1,105 @@
+/*tipos de bordes:
+dotted
+dashed
+solid
+double
+groove
+ridge
+inset
+outset
+none
+hidden*/
+/*COOLORS.COM*/
+/*Normalizer
+MdnWebDocument*/
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: chocolate;
+    color: aliceblue;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.mayorContainer {
+    display: grid;
+    grid-template-columns: 2fr 0.5fr;
+    }
+
+.container {
+    width: 600px;
+    margin-left: 20%;
+}
+
+article section {
+    transition: box-shadow 0.3s ease;
+    background-color: rgb(250, 192, 121);
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+article section:hover {
+    box-shadow: 0 0.3rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+article section h2,
+article section p {
+    margin: 1rem;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:chocolate;
+    top: 0;
+    right: 0;
+    position:static;
+}
+
+aside p {
+    margin: 15%;
+}
+
+.espacio {
+    clear: both;
+}
+
+footer {
+    padding: 3rem;
+    color: aliceblue;
+    background-color: black;
+}
+
+/*div {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}*/
+
+footer div section {
+    float: right;
+}
+
+footer div p {
+    float: left;
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.4s ease;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: blanchedalmond;
+}

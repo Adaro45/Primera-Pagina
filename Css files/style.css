@@ -1,17 +1,3 @@
-/*tipos de bordes:
-dotted
-dashed
-solid
-double
-groove
-ridge
-inset
-outset
-none
-hidden*/
-/*COOLORS.COM*/
-/*Normalizer
-MdnWebDocument*/
 body {
     margin: 0;
     background-color: antiquewhite;
@@ -22,9 +8,10 @@ header {
     background-color: chocolate;
     color: aliceblue;
     padding: 3rem 2rem;
+}
+[titulo="Titulo del header"]{
     text-align: center;
 }
-
 .mayorContainer {
     display: grid;
     grid-template-columns: 2fr 0.5fr;
@@ -76,15 +63,6 @@ footer {
     color: aliceblue;
     background-color: black;
 }
-
-/*div {
- position: absolute;
- bottom: 0;
- left: 0;
- width: 100%;
- height: 100%;
-}*/
-
 footer div section {
     float: right;
 }

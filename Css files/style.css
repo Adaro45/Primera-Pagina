@@ -1,36 +1,67 @@
 body {
     margin: 0;
-    background-color: antiquewhite;
+    background-color: #00496f;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-header {
-    background-color: chocolate;
-    color: aliceblue;
-    padding: 3rem 2rem;
+.banner {
+    background-color: #ff7832;
+    color: #f4fbff;
+    display:flex;
+    align-items: center;
 }
-[titulo="Titulo del header"]{
-    text-align: center;
+.nomPagina{
+    display: inline;
+    position: relative;
+    margin-right: auto;
+    margin-left: 1rem;
 }
+.nav-bar{
+    display: block;
+    position: relative;
+    margin-right: 1rem;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    
+}
+.nav-bar ul a{
+    text-decoration: none;
+}
+.nav-bar a{
+    transition: color 0.6 ease;
+    color:#f4fbff;
+    text-decoration: none;
+}
+.nav-bar a:hover{
+    color: #00496f;
+}
+
 .mayorContainer {
-    display: grid;
-    grid-template-columns: 2fr 0.5fr;
+    display: flex;
     }
 
-.container {
-    width: 600px;
-    margin-left: 20%;
+.container{
+    background-color: #fff8f4;
+    border: 0.5rem solid #fff8f4;
+    border-radius: 0.5rem;
+    color:#6F2600 ;
 }
-
 article section {
     transition: box-shadow 0.3s ease;
-    background-color: rgb(250, 192, 121);
-    margin: 1rem 0;
+    background-color:#ff7832;
+    margin: 1rem 1rem;
     border-radius: 0.5rem;
     padding: 0.25rem 0;
     cursor: pointer;
 }
-
+article section img{
+    width: 20%;
+    float: left;
+}
 article section:hover {
     box-shadow: 0 0.3rem 0.4rem rgba(0, 0, 0, 0.3);
 }
@@ -44,14 +75,17 @@ aside {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:chocolate;
+    background-color:#00496f;
     top: 0;
     right: 0;
-    position:static;
+    position:relative;
+    color: #f4fbff;
 }
 
-aside p {
-    margin: 15%;
+.aside_content {
+    position: relative;
+    margin: 1rem;
+    padding: 0.5rem;
 }
 
 .espacio {
@@ -60,8 +94,8 @@ aside p {
 
 footer {
     padding: 3rem;
-    color: aliceblue;
-    background-color: black;
+    color: #fff8f4;
+    background-color: #00496f;
 }
 footer div section {
     float: right;
@@ -74,10 +108,10 @@ footer div p {
 
 footer a {
     transition: color 0.4s ease;
-    color: blueviolet;
+    color: #ff7832;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: blanchedalmond;
+    color: #f4fbff;
 }

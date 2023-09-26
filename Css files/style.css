@@ -47,7 +47,7 @@ body {
 .container{
     background-color: #fff8f4;
     border: 0.5rem solid #fff8f4;
-    border-radius: 0.5rem;
+    border-radius:0 0.5rem 0.5rem 0;
     color:#6F2600 ;
 }
 article section {

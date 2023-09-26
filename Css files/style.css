@@ -61,10 +61,18 @@ article section {
 article section img{
     width: 20%;
     float: left;
+    padding-right: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+}
+
+article section p{
+    text-align: justify;
 }
 article section:hover {
     box-shadow: 0 0.3rem 0.4rem rgba(0, 0, 0, 0.3);
 }
+
 
 article section h2,
 article section p {
@@ -107,7 +115,7 @@ footer div p {
 }
 
 footer a {
-    transition: color 0.4s ease;
+    transition: color 0.4s ease-in-out;
     color: #ff7832;
     text-decoration: none;
 }

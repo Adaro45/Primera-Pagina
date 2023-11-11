@@ -45,10 +45,13 @@ body {
     }
 
 .container{
-    background-color: #fff8f4;
-    border: 0.5rem solid #fff8f4;
+    background-color: #ffd4ba;
+    border: 0.5rem solid #ffd4ba;
     border-radius:0 0.5rem 0.5rem 0;
-    color:#6F2600 ;
+    color: #ffe2d1 ;
+}
+.container h1{
+    color: #00496f;
 }
 article section {
     transition: box-shadow 0.3s ease;
